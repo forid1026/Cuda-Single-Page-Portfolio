@@ -1,0 +1,22 @@
+@media only screen and (max-width:1150px){
+    .row{
+
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .portfolio-section .col:nth-child(3){
+        margin-left: -30px;
+    }
+    .portfolio-section .col:nth-child(4){
+        margin-left: 4.9rem;
+        margin-top: 5rem;
+    }
+}
